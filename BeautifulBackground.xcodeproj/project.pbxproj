@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D6FABA1BDA16CA009886E7 /* ImageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63D6FAB91BDA16CA009886E7 /* ImageList.xib */; };
+		63D6FABC1BDA19E8009886E7 /* ImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6FABB1BDA19E8009886E7 /* ImageList.swift */; };
+		B7E173F31BB675CC00AAA159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E173F21BB675CC00AAA159 /* AppDelegate.swift */; };
+		B7E173F81BB675CC00AAA159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E173F61BB675CC00AAA159 /* Main.storyboard */; };
+		B7E173FA1BB675CC00AAA159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E173F91BB675CC00AAA159 /* Assets.xcassets */; };
+		B7E173FD1BB675CC00AAA159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E173FB1BB675CC00AAA159 /* LaunchScreen.storyboard */; };
+		B7E174081BB675CC00AAA159 /* BeautifulBackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174071BB675CC00AAA159 /* BeautifulBackgroundTests.swift */; };
+		B7E174131BB675CC00AAA159 /* BeautifulBackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174121BB675CC00AAA159 /* BeautifulBackgroundUITests.swift */; };
+		B7E174211BB6765300AAA159 /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174201BB6765300AAA159 /* MainCollectionViewController.swift */; };
+		B7E174231BB696B100AAA159 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174221BB696B100AAA159 /* MainCollectionViewCell.swift */; };
+		B7E174251BB789E200AAA159 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174241BB789E200AAA159 /* DetailViewController.swift */; };
+		B7E174271BBA4A7300AAA159 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E174261BBA4A7300AAA159 /* NewImageViewController.swift */; };
+		B7E1742B1BBA52FB00AAA159 /* NewImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E1742A1BBA52FB00AAA159 /* NewImageViewCell.swift */; };
+		B7FEEAE21BBD6EFA00BD44DC /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FEEAE11BBD6EFA00BD44DC /* ThemeViewController.swift */; };
+		B7FEEAE41BBD77B400BD44DC /* ThemeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FEEAE31BBD77B400BD44DC /* ThemeViewCell.swift */; };
+		FC31D5B879B5DBE38F5D09AB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2560467886EF71C1F03BA490 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E174041BB675CC00AAA159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E173E71BB675CC00AAA159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E173EE1BB675CC00AAA159;
+			remoteInfo = BeautifulBackground;
+		};
+		B7E1740F1BB675CC00AAA159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E173E71BB675CC00AAA159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E173EE1BB675CC00AAA159;
+			remoteInfo = BeautifulBackground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2560467886EF71C1F03BA490 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D6FAB91BDA16CA009886E7 /* ImageList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageList.xib; sourceTree = "<group>"; };
+		63D6FABB1BDA19E8009886E7 /* ImageList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageList.swift; sourceTree = "<group>"; };
+		6E6AE901618C5736A87FD7E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B7E173EF1BB675CC00AAA159 /* BeautifulBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautifulBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E173F21BB675CC00AAA159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E173F71BB675CC00AAA159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E173F91BB675CC00AAA159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E173FC1BB675CC00AAA159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E173FE1BB675CC00AAA159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E174031BB675CC00AAA159 /* BeautifulBackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulBackgroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E174071BB675CC00AAA159 /* BeautifulBackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulBackgroundTests.swift; sourceTree = "<group>"; };
+		B7E174091BB675CC00AAA159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E1740E1BB675CC00AAA159 /* BeautifulBackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulBackgroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E174121BB675CC00AAA159 /* BeautifulBackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautifulBackgroundUITests.swift; sourceTree = "<group>"; };
+		B7E174141BB675CC00AAA159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E174201BB6765300AAA159 /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		B7E174221BB696B100AAA159 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7E174241BB789E200AAA159 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B7E174261BBA4A7300AAA159 /* NewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+		B7E1742A1BBA52FB00AAA159 /* NewImageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewImageViewCell.swift; sourceTree = "<group>"; };
+		B7FEEAE11BBD6EFA00BD44DC /* ThemeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		B7FEEAE31BBD77B400BD44DC /* ThemeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeViewCell.swift; sourceTree = "<group>"; };
+		D5364A02E6E0740FEF11D201 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E173EC1BB675CC00AAA159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC31D5B879B5DBE38F5D09AB /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E174001BB675CC00AAA159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1740B1BB675CC00AAA159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD32FD86440B4ABEC3EFC13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5364A02E6E0740FEF11D201 /* Pods.debug.xcconfig */,
+				6E6AE901618C5736A87FD7E5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B310BA48DEDB042D16E4A319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2560467886EF71C1F03BA490 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E173E61BB675CC00AAA159 = {
+			isa = PBXGroup;
+			children = (
+				B7E173F11BB675CC00AAA159 /* BeautifulBackground */,
+				B7E174061BB675CC00AAA159 /* BeautifulBackgroundTests */,
+				B7E174111BB675CC00AAA159 /* BeautifulBackgroundUITests */,
+				B7E173F01BB675CC00AAA159 /* Products */,
+				0FD32FD86440B4ABEC3EFC13 /* Pods */,
+				B310BA48DEDB042D16E4A319 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E173F01BB675CC00AAA159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E173EF1BB675CC00AAA159 /* BeautifulBackground.app */,
+				B7E174031BB675CC00AAA159 /* BeautifulBackgroundTests.xctest */,
+				B7E1740E1BB675CC00AAA159 /* BeautifulBackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E173F11BB675CC00AAA159 /* BeautifulBackground */ = {
+			isa = PBXGroup;
+			children = (
+				B7E173F21BB675CC00AAA159 /* AppDelegate.swift */,
+				B7E173F61BB675CC00AAA159 /* Main.storyboard */,
+				B7E174261BBA4A7300AAA159 /* NewImageViewController.swift */,
+				B7E1742A1BBA52FB00AAA159 /* NewImageViewCell.swift */,
+				B7E174201BB6765300AAA159 /* MainCollectionViewController.swift */,
+				B7E174221BB696B100AAA159 /* MainCollectionViewCell.swift */,
+				B7FEEAE11BBD6EFA00BD44DC /* ThemeViewController.swift */,
+				B7FEEAE31BBD77B400BD44DC /* ThemeViewCell.swift */,
+				B7E174241BB789E200AAA159 /* DetailViewController.swift */,
+				B7E173F91BB675CC00AAA159 /* Assets.xcassets */,
+				B7E173FB1BB675CC00AAA159 /* LaunchScreen.storyboard */,
+				63D6FAB91BDA16CA009886E7 /* ImageList.xib */,
+				63D6FABB1BDA19E8009886E7 /* ImageList.swift */,
+				B7E173FE1BB675CC00AAA159 /* Info.plist */,
+			);
+			path = BeautifulBackground;
+			sourceTree = "<group>";
+		};
+		B7E174061BB675CC00AAA159 /* BeautifulBackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E174071BB675CC00AAA159 /* BeautifulBackgroundTests.swift */,
+				B7E174091BB675CC00AAA159 /* Info.plist */,
+			);
+			path = BeautifulBackgroundTests;
+			sourceTree = "<group>";
+		};
+		B7E174111BB675CC00AAA159 /* BeautifulBackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E174121BB675CC00AAA159 /* BeautifulBackgroundUITests.swift */,
+				B7E174141BB675CC00AAA159 /* Info.plist */,
+			);
+			path = BeautifulBackgroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E173EE1BB675CC00AAA159 /* BeautifulBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E174171BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackground" */;
+			buildPhases = (
+				E823200AE9D297A0D98D2879 /* Check Pods Manifest.lock */,
+				B7E173EB1BB675CC00AAA159 /* Sources */,
+				B7E173EC1BB675CC00AAA159 /* Frameworks */,
+				B7E173ED1BB675CC00AAA159 /* Resources */,
+				B16549E751B20BC0888300A5 /* Embed Pods Frameworks */,
+				9E283FCAA47FDDD723D17627 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeautifulBackground;
+			productName = BeautifulBackground;
+			productReference = B7E173EF1BB675CC00AAA159 /* BeautifulBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E174021BB675CC00AAA159 /* BeautifulBackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E1741A1BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackgroundTests" */;
+			buildPhases = (
+				B7E173FF1BB675CC00AAA159 /* Sources */,
+				B7E174001BB675CC00AAA159 /* Frameworks */,
+				B7E174011BB675CC00AAA159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E174051BB675CC00AAA159 /* PBXTargetDependency */,
+			);
+			name = BeautifulBackgroundTests;
+			productName = BeautifulBackgroundTests;
+			productReference = B7E174031BB675CC00AAA159 /* BeautifulBackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E1740D1BB675CC00AAA159 /* BeautifulBackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E1741D1BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackgroundUITests" */;
+			buildPhases = (
+				B7E1740A1BB675CC00AAA159 /* Sources */,
+				B7E1740B1BB675CC00AAA159 /* Frameworks */,
+				B7E1740C1BB675CC00AAA159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E174101BB675CC00AAA159 /* PBXTargetDependency */,
+			);
+			name = BeautifulBackgroundUITests;
+			productName = BeautifulBackgroundUITests;
+			productReference = B7E1740E1BB675CC00AAA159 /* BeautifulBackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E173E71BB675CC00AAA159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = jinjunhyuk;
+				TargetAttributes = {
+					B7E173EE1BB675CC00AAA159 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B7E174021BB675CC00AAA159 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B7E173EE1BB675CC00AAA159;
+					};
+					B7E1740D1BB675CC00AAA159 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B7E173EE1BB675CC00AAA159;
+					};
+				};
+			};
+			buildConfigurationList = B7E173EA1BB675CC00AAA159 /* Build configuration list for PBXProject "BeautifulBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E173E61BB675CC00AAA159;
+			productRefGroup = B7E173F01BB675CC00AAA159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E173EE1BB675CC00AAA159 /* BeautifulBackground */,
+				B7E174021BB675CC00AAA159 /* BeautifulBackgroundTests */,
+				B7E1740D1BB675CC00AAA159 /* BeautifulBackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E173ED1BB675CC00AAA159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D6FABA1BDA16CA009886E7 /* ImageList.xib in Resources */,
+				B7E173FD1BB675CC00AAA159 /* LaunchScreen.storyboard in Resources */,
+				B7E173FA1BB675CC00AAA159 /* Assets.xcassets in Resources */,
+				B7E173F81BB675CC00AAA159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E174011BB675CC00AAA159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1740C1BB675CC00AAA159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E283FCAA47FDDD723D17627 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16549E751B20BC0888300A5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E823200AE9D297A0D98D2879 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E173EB1BB675CC00AAA159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E174271BBA4A7300AAA159 /* NewImageViewController.swift in Sources */,
+				B7E173F31BB675CC00AAA159 /* AppDelegate.swift in Sources */,
+				B7FEEAE21BBD6EFA00BD44DC /* ThemeViewController.swift in Sources */,
+				B7E174231BB696B100AAA159 /* MainCollectionViewCell.swift in Sources */,
+				B7FEEAE41BBD77B400BD44DC /* ThemeViewCell.swift in Sources */,
+				63D6FABC1BDA19E8009886E7 /* ImageList.swift in Sources */,
+				B7E1742B1BBA52FB00AAA159 /* NewImageViewCell.swift in Sources */,
+				B7E174211BB6765300AAA159 /* MainCollectionViewController.swift in Sources */,
+				B7E174251BB789E200AAA159 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E173FF1BB675CC00AAA159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E174081BB675CC00AAA159 /* BeautifulBackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E1740A1BB675CC00AAA159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E174131BB675CC00AAA159 /* BeautifulBackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E174051BB675CC00AAA159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E173EE1BB675CC00AAA159 /* BeautifulBackground */;
+			targetProxy = B7E174041BB675CC00AAA159 /* PBXContainerItemProxy */;
+		};
+		B7E174101BB675CC00AAA159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E173EE1BB675CC00AAA159 /* BeautifulBackground */;
+			targetProxy = B7E1740F1BB675CC00AAA159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E173F61BB675CC00AAA159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E173F71BB675CC00AAA159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E173FB1BB675CC00AAA159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E173FC1BB675CC00AAA159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E174151BB675CC00AAA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E174161BB675CC00AAA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E174181BB675CC00AAA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5364A02E6E0740FEF11D201 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BeautifulBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7E174191BB675CC00AAA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6AE901618C5736A87FD7E5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BeautifulBackground/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7E1741B1BB675CC00AAA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifulBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulBackground.app/BeautifulBackground";
+			};
+			name = Debug;
+		};
+		B7E1741C1BB675CC00AAA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeautifulBackgroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackgroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeautifulBackground.app/BeautifulBackground";
+			};
+			name = Release;
+		};
+		B7E1741E1BB675CC00AAA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifulBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifulBackground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B7E1741F1BB675CC00AAA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BeautifulBackgroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jjhok.BeautifulBackgroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BeautifulBackground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E173EA1BB675CC00AAA159 /* Build configuration list for PBXProject "BeautifulBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E174151BB675CC00AAA159 /* Debug */,
+				B7E174161BB675CC00AAA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E174171BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E174181BB675CC00AAA159 /* Debug */,
+				B7E174191BB675CC00AAA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E1741A1BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1741B1BB675CC00AAA159 /* Debug */,
+				B7E1741C1BB675CC00AAA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E1741D1BB675CC00AAA159 /* Build configuration list for PBXNativeTarget "BeautifulBackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E1741E1BB675CC00AAA159 /* Debug */,
+				B7E1741F1BB675CC00AAA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E173E71BB675CC00AAA159 /* Project object */;
+}
